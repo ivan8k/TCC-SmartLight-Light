@@ -1,0 +1,15 @@
+menu "Wi-Fi Config"
+    config ESP_WIFI_SSID
+    string "WiFi SSID"
+    default "SLZE"
+    help
+        SSID to be connected to.
+    
+    config ESP_WIFI_PASS
+        string "WiFi Password"
+        default "Ls4HZldNq6"
+    
+    config ESP_MAXIMUM_RETRY
+        int "Maximum retry atempts"
+        default 5
+endmenu
